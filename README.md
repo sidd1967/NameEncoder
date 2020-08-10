@@ -45,8 +45,9 @@ npm install
 Then navigate back to the project folder(/NameEncoder) and run the following code to deploy the project in local host:
 npm run dev
 
-Now server will be started and the frontend server will automaticcally run and the default browser will open with a new tab displaying the Web Application.
+Now server will be started and the frontend server will automatically run and the default browser will open with a new tab displaying the Web Application.
+To access Swagger UI for localhost please use the link: http://localhost:5000/api-docs/
 
 Thats's it!!
 
-The Web Application is Up and Running in Localhost
+The Web Application is Up and Running on localhost.
