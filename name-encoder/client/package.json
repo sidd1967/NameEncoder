@@ -19,7 +19,7 @@
     "react-scripts": "3.4.1",
     "react-scroll": "^1.8.0",
     "swagger-ui": "^3.31.1",
-    "xlsx": "^0.16.4"
+    "xlsx": "^0.17.0"
   },
   "scripts": {
     "start": "react-scripts start",
