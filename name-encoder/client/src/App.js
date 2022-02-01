@@ -31,7 +31,7 @@ class App extends Component {
                   <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 
             <a className="navbar-brand" href="https://google.com" target="_blank">
-             
+            
             </a>
             <Link to="/" className="navbar-brand"> Name Encoder</Link>
             <div className="collpase nav-collapse">
@@ -80,18 +80,52 @@ class App extends Component {
           
 
         </div>
-        <div className="footer">
+        {/* <div className="footer">
         <img src = {logo}  width ="300" height="150" className="logo" alt="Soundex Project" />
           <div className="footerText"><px>POST GRADUATE UNIVERSITY PROJECT: Name Encoder Using Matheson's Look Up Tables</px> <br/>
           <rig2>Project Department: Computer Science<br/>
           Project Module: CS648<br/>Project Guide: Dr. Adam Winstanley<br/>
           Student Name: Siddhartha Ranganathan<br/>
           Email: SIDDHARTHA.RANGANATHAN.2020@mumail.ie</rig2>
-          
-
           </div><br/>
+</div> */}
 
-</div>
+<footer className="page-footer font-small bg-secondary">
+  <div className="container text-left text-md-left text-white">
+    <div className="row py-2">
+      <div className="col-md-2">
+        <img src = {logo}  width ="150" height="75" className="logo" alt="Soundex Project" />
+      </div>
+      <div className="col-md-4">
+          <ul className="list-unstyled">
+              <li>
+              POST GRADUATE UNIVERSITY PROJECT:<br/> Name Encoder Using Matheson's Look Up Tables
+              </li>
+              <li>
+              Project Department: Computer Science
+              </li>
+              <li>
+              Project Module: CS648
+              </li>
+          </ul> 
+      </div>   
+      <div className="col-md-4">
+            <ul className="list-unstyled">
+                <li>
+                Project Guide: Dr. Adam Winstanley
+                </li>
+                <li>
+                Student Name: Siddhartha Ranganathan
+                </li>
+                <li>
+                Email: SIDDHARTHA.RANGANATHAN.2020@mumail.ie  
+                </li>
+            </ul>
+      </div>  
+      
+    </div>
+  </div>
+</footer>
 
 
               </Router>
